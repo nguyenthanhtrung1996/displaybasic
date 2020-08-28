@@ -1,0 +1,143 @@
+
+body{
+	
+	margin:0;
+}
+
+
+
+#header{
+	background-color: #3b5998;
+	height: 82px;
+	margin:0 auto;
+	width:100%;
+	border-bottom: 1px solid #133783;
+}
+
+#header #total{
+	
+	height:100%;
+	width:981px;
+	
+}
+.margin_left{
+	margin-left: 185px;
+}
+
+#header #container1{
+	float:left;
+	width: 576px;
+	height:100%;
+}
+
+#header #container1 img{
+	margin-top: 31px;
+}
+
+#header #container2{
+	float:left;
+	width:170px;
+}
+#header #container2 p{
+	color: #fff5e6;
+	margin: 17px 0 0 0;
+	
+	/*position: relative;*/
+}
+#header #container2 input{
+	width: 148px;
+}
+#header #container3{
+	float:left;
+	width:170px;
+}
+#header #container3 input{
+	width: 148px;
+}
+#header #container3 p{
+	margin: 17px 0 0 0;
+	color: #fff5e6;
+	
+}
+#header #container3 a{
+	text-decoration: none;
+	color: #73abd8;
+}
+#header #container3 input{
+	/*position: relative;*/
+}
+#header #container4{
+	float:left;
+}
+#header #container4 p{
+	/*width:74px;
+	height: 22px;
+	color: #fff5e6;
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	font-size: 12px;
+	text-align: center;*/
+	color: #fff5e6;
+	background-color: #4267b2;
+	border:1px solid #29487d;
+	font-size: 12px;
+	padding: 3px;
+	/*position: absolute;*/
+	margin:35px 0 0 0;
+}
+
+#mid{
+	background-image: url('./background.jpg');
+	height: auto;
+	width:100%;
+}
+
+#mid #totalm{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	
+}
+
+#mid #totalm #containerm1{
+	width: 576px;
+}
+
+#mid #totalm #containerm1 p{
+	font-size: 20px;
+	color:#0e385f;
+	font-weight: bolder;
+}
+#mid #totalm #containerm2 input[type="text"]{
+	border: 1px solid #bdc7d8;
+	padding:12px 10px;
+	color: #999999;
+	border-radius: 5px 5px 5px 5px;
+}
+
+#mid #totalm #containerm2 h3{
+	color: #90949c;
+	font-weight: bolder;
+}
+
+.formdate{
+	border: 1px solid #ccd0d5;
+}
+
+#dangki:hover{
+	opacity:0.8;
+}
+
+#footer #totalf{
+	margin-top: 10px;
+}
+
+#footer #totalf label{
+	color:#737373;
+	font-size: 14px;
+	word-spacing: 10px;
+	
+}
+#footer #totalf p a{
+	
+}
