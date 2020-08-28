@@ -1,0 +1,57 @@
+body {
+  margin: 0; }
+
+.bgtop {
+  background: #363636; }
+
+.logo .row .action a {
+  animation: hourglass 2s infinite alternate; }
+
+@keyframes hourglass {
+  from {
+    transform: rotate(0); }
+  to {
+    transform: rotate(360deg); } }
+#HOME .container .row .col-sm-3 {
+  position: relative; }
+  #HOME .container .row .col-sm-3 .card:hover {
+    opacity: 0.5; }
+  #HOME .container .row .col-sm-3 .card .discount {
+    position: absolute;
+    z-index: 5;
+    background-color: #ed1c24;
+    color: white;
+    padding: 1rem 0.5rem;
+    right: 0; }
+  #HOME .container .row .col-sm-3 .card a {
+    text-decoration: none;
+    z-index: 1; }
+    #HOME .container .row .col-sm-3 .card a .card-body {
+      color: black; }
+      #HOME .container .row .col-sm-3 .card a .card-body p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      #HOME .container .row .col-sm-3 .card a .card-body label {
+        font-weight: bolder; }
+        #HOME .container .row .col-sm-3 .card a .card-body label .fixprice {
+          text-decoration: line-through;
+          color: #acacac;
+          margin-left: 1rem;
+          font-size: 14px; }
+
+.footer .container .row .col-sm-4 div .weight {
+  font-weight: bolder; }
+.footer .container .row .col-sm-4 div .hr {
+  width: 5.5rem;
+  height: 1.5px;
+  background: white; }
+.footer .container .row .col-sm-4 div ul {
+  font-size: 0.9rem;
+  padding-left: 1rem; }
+  .footer .container .row .col-sm-4 div ul .logoitems {
+    list-style-image: url("../image/local.jpg"); }
+  .footer .container .row .col-sm-4 div ul .logoitems1 {
+    list-style-image: url("../image/call.jpg"); }
+
+/*# sourceMappingURL=my-css-boostrap.css.map */

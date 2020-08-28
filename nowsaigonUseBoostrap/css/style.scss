@@ -1,0 +1,106 @@
+body{
+	margin:0;
+}
+.bgtop{
+	background: #363636;
+}
+
+.logo{
+	.row{
+		.action{
+			a{
+				animation: hourglass 2s infinite alternate;
+				img{
+					
+				}
+			}
+		}
+	}
+}
+
+@keyframes hourglass{
+	from{
+		transform: rotate(0);
+	}
+	to{
+		transform: rotate(360deg);	
+	}
+	
+}
+
+#HOME{
+	.container{
+		.row{
+			.col-sm-3{
+				position: relative;
+				.card:hover{
+					opacity: 0.5;
+				}
+				.card{	
+					.discount{
+						position: absolute;
+						z-index: 5;
+						background-color: #ed1c24;
+						color:white;
+						padding:1rem 0.5rem;
+						right:0;
+					}
+
+					a{
+					text-decoration: none;
+					
+					z-index: 1;
+					.card-body{
+						p{
+							white-space: nowrap;
+							overflow: hidden;
+							text-overflow: ellipsis;
+						}
+						label{
+							font-weight: bolder;
+							.fixprice{
+								text-decoration: line-through;
+								color: #acacac;
+								margin-left: 1rem;
+								font-size: 14px
+							}
+						}
+						color:black;
+					}
+					
+					}
+				}
+			}
+		}
+	}
+}
+
+.footer{
+	.container{
+		.row{
+			.col-sm-4{
+				div{
+					.weight{
+						font-weight: bolder;
+					}
+					.hr{
+						width:5.5rem;
+						height: 1.5px;
+						background: white;
+					}
+					ul{
+						font-size:0.9rem;
+						padding-left: 1rem; 
+						.logoitems{
+							list-style-image: url('../image/local.jpg');
+
+						}
+						.logoitems1{
+							list-style-image: url("../image/call.jpg");
+						}
+					}
+				}
+			}
+		}
+	}
+}
